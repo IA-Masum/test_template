@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Free Resume</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/free_resume.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="container text-white text-center pt-5">
+        <h1 class="mt-5">Complete Below Form</h1>
+        <p>for a free resume review</p>
+      </div>
+    </div>
+    <div class="form-container">
+      <div class="form-body mb-5">
+        <form method="POST" action="">
+          <div class="py-2">
+            <input
+              type="text"
+              name="firstname"
+              class="form-control"
+              placeholder="First Name"
+            />
+          </div>
+
+          <div class="py-2">
+            <input
+              type="text"
+              name="lastname"
+              class="form-control"
+              placeholder="Last Name"
+            />
+          </div>
+
+          <div class="py-2">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Enter email"
+            />
+          </div>
+
+          <div class="py-2">
+            <input
+              type="phone"
+              name="phone"
+              class="form-control"
+              placeholder="Phone"
+            />
+          </div>
+          <div class="form-row my-2">
+            <div class="col">
+              <select name="category" class="form-control">
+                <option value="">Technology</option>
+                <option value="">Technology</option>
+                <option value="">Technology</option>
+                <option value="">Technology</option>
+                <option value="">Technology</option>
+              </select>
+            </div>
+            <div class="col ml-2">
+              <input type="file" class="form-control-file">
+            </div>
+          </div>
+          <div class="py-2">
+            <textarea class="form-control" rows="4">
+Any other pertinent information</textarea
+            >
+          </div>
+          <button type="submit" name="submit" class="btn main-btn my-3">
+            Submit
+          </button>
+        </form>
+        <div style="position: relative;">
+          <div class="side-box">
+            <p class="f-12">
+              Don’t let a resume stand in the way of your dream job
+            </p>
+            <h3>join the hundreds benefiting from our free resume review</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

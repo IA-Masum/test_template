@@ -1,0 +1,43 @@
+
+body{
+  min-width: 384px;
+}
+.serial{
+  background: #0FD8D0;
+  width: 100px;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px;
+  padding-right: 40px; 
+  border-radius: 40px 0 0 100px;
+}
+
+.slice-body{
+  min-width: 250px;
+  margin-top: -51px;
+  margin-left: 40px;
+  padding: 15px;
+  padding-left: 25px; 
+  font-size: 14px;
+  background: #fff;
+  border-radius: 80px 50px 50px 30px;
+  z-index: 1;
+}
+
+.paypal-btn{
+  background: #fff;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+
+@media screen and (max-width: 650px){
+  .slice-body{
+    min-width: 200px;
+  }
+
+
+}

@@ -1,0 +1,113 @@
+.background {
+  background-image: linear-gradient(
+      to right,
+      rgba(9, 62, 60, 0.85),
+      rgba(56, 173, 169, 0.85)
+    ),
+    url("../images/Resume writing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 475px;
+}
+
+.side-box {
+  position: absolute;
+  top: -400px;
+  right: -80%;
+  background-color: #093e3c;
+  color: #fff;
+  max-width: 200px;
+  padding: 25px;
+  box-shadow: 0px 2px 45px rgba(6, 20, 20, 0.25);
+}
+
+.form-body {
+  position: absolute;
+  top: -200px;
+  width: 450px;
+  left: 30%;
+  background: #fff;
+  padding: 25px;
+  padding-right: 100px;
+  box-shadow: 0px 2px 45px rgba(32, 91, 93, 0.2);
+}
+
+.form-container {
+  position: relative;
+}
+
+@media screen and  (max-width: 950px){
+  .form-body {
+    left: 20%;
+  }
+}
+
+@media screen and  (max-width: 850px){
+  .form-body {
+    left: 15%;
+  }
+}
+
+@media screen and  (max-width: 750px){
+  .form-body {
+    left: 50px;
+  }
+}
+
+@media screen and  (max-width: 670px){
+  .form-body {
+    width: 350px;
+  }
+  .side-box {
+
+    right: -110%;
+
+  }
+}
+
+@media screen and  (max-width: 560px){
+  .form-body {
+    left: 10%;
+    width: 400px;
+    margin-top: -20px;
+    padding-right: 20px; 
+  }
+  .side-box {
+
+    display: none;
+
+  }
+}
+
+@media screen and  (max-width: 480px){
+  .form-body {
+    left: 8%;
+    width: 350px;
+  }
+
+}
+
+@media screen and  (max-width: 400px){
+  .form-body {
+    left: 5%;
+    width: 300px;
+  }
+
+}
+
+@media screen and  (max-width: 400px){
+  .form-body {
+    left: 3%;
+    max-width: 280px;
+  }
+
+}
+
+@media screen and  (min-width: 1900px){
+  .form-body {
+    left: 35%;
+  }
+
+}
+
